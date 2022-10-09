@@ -68,10 +68,12 @@ header{
 
 
 main{
-    background-color: bisque;
+    /* background-color: bisque; */
     width: 100%;
-    height: 100vh;
+    height: calc(500vh-80px);
     margin-top: 30px;
+    /* margin-bottom: 80px;
+    padding-bottom: 80px; */
 }
 
 .container{
@@ -105,3 +107,76 @@ img{
     opacity: 0.8;
 }
 
+
+footer{
+    background-color: #222222;
+    height: 80px;
+    max-width: 100%;
+    
+}
+
+
+.footer-container{
+    /* background-color: white; */
+    background-color: #222222;
+    height: 80px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.left-command{
+    color: white;
+    margin-left: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer span{
+    font-size: 30px;
+}
+
+footer div{
+    font-size: 10px;
+}
+
+
+.center-command{
+    color: white;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#shsc{
+    color: green;
+}
+
+.right-command{
+    color: red;
+    margin-left: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#end-meeting{
+    color: red;
+    background-color: #4a4a4a;
+    height: 30px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+}
