@@ -79,5 +79,29 @@ main{
     justify-content: space-evenly;
     flex-wrap: wrap;
     overflow: auto;
-    height: calc(100vh-200px);
+    /* margin: 0 30px; */
 }
+
+.web-square{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    /* background-color: white; */
+    position: relative;
+}
+
+img{
+    width: 100%;
+    margin-right: 0 10px;
+}
+
+.info-box{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    padding: 5px;
+    background-color: #68727e;
+    color: white;
+    opacity: 0.8;
+}
+
